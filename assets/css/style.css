@@ -1,16 +1,61 @@
+/* --------- Global style */
+
 body {
-    background-color: antiquewhite;
+    background-color: white;
+    font-family: "Raleway", sans-serif;
+    color: #445361;
+    text-align: center;
+
 }
 
-#logo {
+/* --------- Heading */
 
+.heading {
+    text-align: center;
+    font-size: 2.5rem;
 }
 
-#games-area {
-    max-width: 300px;
-    max-height: 300px;
+.logo {
+    height: 40px;
+    padding-right: 5px;
 }
-.button {
-    height: 50px;
-    width: 50px;
+
+
+/* ----game area buttons*/
+.containing {
+    justify-content: space-evenly
+    height: 900px;
+    width: 900px;
+    background-color: aqua;
+}
+
+button {
+    height: 100px;
+    width: 150px;
+    
+}
+
+.rock-image {
+    height: 100px;
+    width: 100px;
+}
+
+.paper-image
+{
+    height: 100px;
+    width: 100px;
+}
+.scissors-image {
+    height: 100px;
+    width: 100px;
+}
+
+.lizard-image {
+    height: 100px;
+    width: 100px;
+}
+
+.spock-image {
+    height: 100px;
+    width: 100px;
 }

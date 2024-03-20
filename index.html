@@ -9,22 +9,61 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <title>Big Bang Game</title>
 </head>
 
 <body>
-<h1 class="heading"><img class="logo" src = "assets/images/noun-vulcan-salute-60409.png">Rock, Paper, Scissor, Lizard or Spock?</h1>
+    <!--header and logo-->
+    <h1 class="heading"><img class="logo" src="assets/images/noun-vulcan-salute-60409.png">Rock, Paper, Lizard or Spock?
+    </h1>
 
-<div class="game-area">
-<div class ="rock-logo"><button><img class="rock" src="assets/images/noun-rock-88661.png">Rock</button></div>
-<div class ="paper-and-scissors-logo"><button><img class =  "paper" src="assets/images/noun-paper-88662.png"> </button> <button><img class = "scissors" src="assets/images/noun-scissors-88666.png"></button></div>
-<div class ="lizard-and-spock-logo"><button><img class ="lizard" src="assets/images/noun-lizard-88663.png">Lizard</button><button> <img class ="spock" src="assets/images/noun-vulcan-salute-60409.png">Spock</button></div>
-</div>
+    <!--game buttons area-->
 
-<div class="score-area">
+    <div class="containing">
+
+        <div class="rock-choice">
+            <button class="rock-button"><img class="rock-image"
+                    src="assets/images/noun-rock-88661.png" alt="rock icon"></button>
+        </div>
+        <div class="paper-scissors-choice">
+            <button class="paper-button"><img class="paper-image"
+                    src="assets/images/noun-paper-88662.png" alt="paper icon""</button>
+    <button class="scissors-button"><img class="scissors-image" src="assets/images/noun-scissors-88666.png"
+                    alt="scissors icon"></button>
+        </div>
+        <div class="lizard-spock-choice">
+            <button class="lizard-button"><img class="lizard-image"
+                    src="assets/images/noun-lizard-88663.png" alt="lizard icon"></button>
+                    <button class="spock-button"><img class ="spock-image"
+                        src="assets/images/noun-vulcan-salute-60409.png" alt = "spock icon"> </button>
+        </div>
+    </div>
+        <!--display area for player and computer choices-->
+        <div class="player-choice">
+            <h1>Player choice</h1>
+        </div 
+
+        <div class="computer choice">
+            <h1>Computer choice</h1>
+
+        </div>
+
+        <!--Score-->
+        <div>
+
+        <h1>Your score</h1>
+        </div>
+        <div>
+
+        <h1>Computer score</h1>
+        </div>
 
 
-</div>
+       
+    </div>
+
+    </div>
+
 
 
     <script src="assets/js/script.js"></script>
