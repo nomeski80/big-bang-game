@@ -19,7 +19,7 @@
 
     <!--game buttons area-->
 
-    <div class="containing">
+    
 
         <div class="rock-choice">
             <button class="rock-button"><img class="rock-image"
@@ -37,7 +37,7 @@
                     <button class="spock-button"><img class ="spock-image"
                         src="assets/images/noun-vulcan-salute-60409.png" alt = "spock icon"> </button>
         </div>
-    </div>
+    
         <!--display area for player and computer choices-->
         <div class="player-choice">
             <h1>Player choice</h1>
@@ -51,11 +51,11 @@
         <!--Score-->
         <div>
 
-        <h1>Your score</h1>
+        <h1 class ="your-score">Your score</h1>
         </div>
         <div>
 
-        <h1>Computer score</h1>
+        <h1 class ="computer-score">Computer score</h1>
         </div>
 
 
@@ -64,7 +64,19 @@
 
     </div>
 
-
+<!--rules-->
+<div class="game-rules">
+    <h1>How to play...</h1>
+    <ul>
+        <li>ROCK crushes LIZARD; Rock crushes SCISSORS </li>
+        <li>PAPER covers ROCK; PAPER disproves SPOCK</li>
+        <li>SCISSORS cuts PAPER; SCISSORS decapitates LIZARD</li>
+        <li>LIZARD eats PAPER; LIZARD poisons SPOCK</li>
+        <li>vaporizes ROCK; SPOCK smashes SCISSORS</li>
+    </ul>
+    <img class="rules-image" src="assets/images/RPSLS.webp" alt ="simple diagram to explain the ruels to the game">
+    
+</div>
 
     <script src="assets/js/script.js"></script>
 </body>

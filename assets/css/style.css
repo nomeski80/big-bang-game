@@ -1,9 +1,9 @@
 /* --------- Global style */
 
 body {
-    background-color: white;
+    background-color: #E9C46A;
     font-family: "Raleway", sans-serif;
-    color: #445361;
+    color: #264653;
     text-align: center;
 
 }
@@ -21,17 +21,21 @@ body {
 }
 
 
-/* ----game area buttons*/
+/* ----game area buttons
 .containing {
     justify-content: space-evenly
     height: 900px;
     width: 900px;
     background-color: aqua;
 }
-
+*/
 button {
-    height: 100px;
+    height: 150px;
     width: 150px;
+    border-radius: solid;
+    border-radius: 50%;
+    background-color:#2A9D8F;
+    border: 10px solid #E76F51; 
     
 }
 
@@ -59,3 +63,5 @@ button {
     height: 100px;
     width: 100px;
 }
+
+
