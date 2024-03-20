@@ -13,6 +13,7 @@ body {
 .heading {
     text-align: center;
     font-size: 2.5rem;
+    background-color: #F4A261;
 }
 
 .logo {
@@ -65,3 +66,7 @@ button {
 }
 
 
+
+.rules-image {
+    background-color: #2A9D8F;
+}
