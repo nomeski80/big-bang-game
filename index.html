@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Google fonts links-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    
+      
+        
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Big Bang Game</title>
 </head>
@@ -19,25 +19,23 @@
 
     <!--game buttons area-->
 
-    
+    <div class = "play-area">
 
-        <div class="rock-choice">
+       
             <button class="rock-button"><img class="rock-image"
                     src="assets/images/noun-rock-88661.png" alt="rock icon"></button>
-        </div>
-        <div class="paper-scissors-choice">
+       
             <button class="paper-button"><img class="paper-image"
                     src="assets/images/noun-paper-88662.png" alt="paper icon""</button>
     <button class="scissors-button"><img class="scissors-image" src="assets/images/noun-scissors-88666.png"
                     alt="scissors icon"></button>
-        </div>
-        <div class="lizard-spock-choice">
+       
             <button class="lizard-button"><img class="lizard-image"
                     src="assets/images/noun-lizard-88663.png" alt="lizard icon"></button>
                     <button class="spock-button"><img class ="spock-image"
                         src="assets/images/noun-vulcan-salute-60409.png" alt = "spock icon"> </button>
         </div>
-    
+   
         <!--display area for player and computer choices-->
         <div class="player-choice">
             <h1>Player choice</h1>
@@ -47,7 +45,7 @@
             <h1>Computer choice</h1>
 
         </div>
-
+    </div>
         <!--Score-->
         <div>
 
@@ -67,8 +65,8 @@
 <!--rules-->
 <div class="game-rules">
     <h1>How to play...</h1>
-    <ul>
-        <li>ROCK crushes LIZARD; Rock crushes SCISSORS </li>
+    <ul class = "rules" id="rules">
+        <li">ROCK crushes LIZARD; Rock crushes SCISSORS </li>
         <li>PAPER covers ROCK; PAPER disproves SPOCK</li>
         <li>SCISSORS cuts PAPER; SCISSORS decapitates LIZARD</li>
         <li>LIZARD eats PAPER; LIZARD poisons SPOCK</li>
