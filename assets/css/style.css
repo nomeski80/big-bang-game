@@ -62,7 +62,7 @@ button {
     background-color:#4D908E;
     border: 10px solid #E76F51; 
     padding: 25px 25px,25px, 25px;
-    
+    background: linear-gradient(to left, transparent);
 }
 
 .rock-image {
@@ -115,4 +115,10 @@ ul {
     border: 10px solid #E76F51;
   
     
+}
+media
+
+
+footer {
+    background-color: #4D908E;
 }
