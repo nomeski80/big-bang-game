@@ -1,14 +1,11 @@
 /* --------- Global style */
 
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap')
-
 .krona-one-regular {
     font-family: "Krona One", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
   
-
 body {
     background-color: #E9C46A;
     font-family: "Krona", sans-serif;
@@ -23,7 +20,8 @@ body {
 .heading {
     text-align: center;
     font-size: 5rem;
-    background-color: #90BE6D;
+    background-color: #F8961E
+    ;
 }
 
 .logo {
@@ -49,8 +47,6 @@ padding-right: 25px;
     height: 900px;
     width: 900px;
     background-color: #43AA8B;
-    
-  
 }
 
 button {
@@ -89,6 +85,14 @@ button {
     height: 200px;
     width: 200px;
 }
+#play {
+    height: 100px;
+    width: 200px;
+    border-radius: 10%;
+    border-color: #43AA8B;
+    background-color: #E76F51;
+    font-size: 30px;
+}
 
 h1 {
     font-size: 50px;
@@ -105,6 +109,7 @@ padding-right: 25px;
 .rules-image {
     background-color: #4D908E;
     border: 10px solid #E76F51;
+    border-radius: 10%;
      
 }
 ul {
@@ -113,12 +118,10 @@ ul {
     list-style: none;
     background-color: #4D908E;
     border: 10px solid #E76F51;
-  
-    
+    border-radius: 10%;
+    padding-top: 25px;
 }
-media
 
-
-footer {
+#footer {
     background-color: #4D908E;
 }
