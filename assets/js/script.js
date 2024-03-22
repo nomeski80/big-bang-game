@@ -1,3 +1,23 @@
+// Wait for the DOM to finish loading befre running the game
+// Get the buttin elements and add event listeners to them
+
+DocumentTimeline.addEventListener("DOMContentLoaded", function () {
+    let button = document.getElementsByTagName("button")
+
+    for (let buttons of butons) {
+        button.addEventListener("click", function () {
+            if (this.getAttribute("data-type") === "submit") {
+                alert("You clicked submit!);
+            } else {
+                let  gameType = this.getAttribute("data-type");
+                alert(`You clicked ${gameType}`);
+            }
+            }
+        })
+    }
+})
+
+
 let compChoice = document.getElementById('computer-choice')
 let yourChoice = document.getElementById('user-choice')
 let resultDisplay = document.getElementById('result')
@@ -34,5 +54,5 @@ function diaplayComputerChoice () {
 }
 
 function incrementScore () {
-    
+
 }
