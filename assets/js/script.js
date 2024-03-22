@@ -20,3 +20,19 @@ playButton.addEventListener('click', (e) => {
 function addTextToSpan(spanControl, text) {
     spanControl.textContent = text
 }
+
+function runGame() {
+
+}
+
+function displayPlayerChoice () {
+
+}
+
+function diaplayComputerChoice () {
+
+}
+
+function incrementScore () {
+    
+}

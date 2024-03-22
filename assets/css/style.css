@@ -7,9 +7,9 @@
   }
   
 body {
-    background-color: #E9C46A;
+    background-color: #B4D4EE;
     font-family: "Krona", sans-serif;
-    color: #264653;
+    color: #B4D4EEa;
     text-align: center;
     align-items: center;
 
@@ -20,7 +20,7 @@ body {
 .heading {
     text-align: center;
     font-size: 5rem;
-    background-color: #F8961E
+    background-color: #81717A;
     ;
 }
 
@@ -46,7 +46,7 @@ padding-right: 25px;
   align-items: center;
     height: 900px;
     width: 900px;
-    background-color: #43AA8B;
+    background-color: #A7ABDD;
 }
 
 button {
@@ -55,8 +55,8 @@ button {
     width: 300px;
     border-radius: solid;
     border-radius: 50%;
-    background-color:#4D908E;
-    border: 10px solid #E76F51; 
+    background-color:#A7ABDD;
+    border: 10px solid #81717A; 
     padding: 25px 25px,25px, 25px;
     background: linear-gradient(to left, transparent);
 }
@@ -89,8 +89,8 @@ button {
     height: 100px;
     width: 200px;
     border-radius: 10%;
-    border-color: #43AA8B;
-    background-color: #E76F51;
+    background-color:#A7ABDD;
+    border: 10px solid #81717A; 
     font-size: 30px;
 }
 
@@ -107,8 +107,8 @@ padding-right: 25px;
 
 }
 .rules-image {
-    background-color: #4D908E;
-    border: 10px solid #E76F51;
+    background-color:#A7ABDD;
+    border: 10px solid #81717A;
     border-radius: 10%;
      
 }
@@ -116,8 +116,8 @@ ul {
     font-size: 50px;
     font-family: krona;
     list-style: none;
-    background-color: #4D908E;
-    border: 10px solid #E76F51;
+    background-color:#A7ABDD;
+    border: 10px solid #81717A;
     border-radius: 10%;
     padding-top: 25px;
 }
