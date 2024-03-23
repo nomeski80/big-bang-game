@@ -1,58 +1,60 @@
 // Wait for the DOM to finish loading befre running the game
-// Get the buttin elements and add event listeners to them
+//Document.addEventListener("DOMContentLoaded", function () {
+ //   let buttons = document.getElementsByTagName("button")
 
-DocumentTimeline.addEventListener("DOMContentLoaded", function () {
-    let button = document.getElementsByTagName("button")
+   // function runGame() {
 
-    for (let buttons of butons) {
-        button.addEventListener("click", function () {
-            if (this.getAttribute("data-type") === "submit") {
-                alert("You clicked submit!);
-            } else {
-                let  gameType = this.getAttribute("data-type");
-                alert(`You clicked ${gameType}`);
-            }
-            }
-        })
+  //  }
+    
+// Get the button elements and add event listeners to them
+// explain the rules and how to play
+//encourage player to select their choice
+//function displayPlayerChoice() {
+
+//}
+//computer picks a choice
+
+console.log("ready")
+
+const choices = ["rock", "paper", "scissors", "lizard", "spock"];
+const playerDisplay = document.getElementById("playerDisplay");
+const computerDisplay = document.getElementById("computerDisplay");
+const resultDisplay = document.getElementById ("resultDisplay")
+
+function playGame(playerChoice) {
+
+    const computerChoice = choices[Math.floor(Math.random() *5)];
+let result = "";
+
+if(playerChoice === computerChoice){
+    result = "It's a tie!"
+} else {
+    switch(playerChoice){
+        case "rock":
+            result = (computerChoice === "scissors") ? "YOU WIN!" : " YOU LOSE";
+            break;
+        case "paper":
+                result = (computerChoice === "rock") ? "YOU WIN!" : " YOU LOSE";
+        case "scissors":
+                result = (computerChoice === "paper") ? "YOU WIN!" : " YOU LOSE";
     }
-})
-
-
-let compChoice = document.getElementById('computer-choice')
-let yourChoice = document.getElementById('user-choice')
-let resultDisplay = document.getElementById('result')
-let playButton = document.getElementById('play')
-let possibleChoices = ['rock', 'paper', 'scissors']
-
-let choices = document.getElementsByName('choice')
-choices.forEach((c) => {
-    c.addEventListener('click', () => {
-        playButton.disabled = false
-    })
-})
-
-playButton.addEventListener('click', (e) => {
-    let buttonsArray = Array.from(choices)
-    let selected = buttonsArray.filter((b) => b.checked)
-    addTextToSpan(yourChoice, selected[0].id)
-})
-
-function addTextToSpan(spanControl, text) {
-    spanControl.textContent = text
 }
 
-function runGame() {
+playerDisplay.textContent.Content = `PLAYER ${playersChoice}`;
+computerDisplay.textContent.Content = `PLAYER ${computersChoice}`;
+resultDisplay.textContent = result;
 
-}
+ 
 
-function displayPlayerChoice () {
 
-}
+//function diaplayComputerChoice() {
 
-function diaplayComputerChoice () {
+//}
+// compares the choices
+// display winner
 
-}
+//add score
 
-function incrementScore () {
+//} 
 
 }
