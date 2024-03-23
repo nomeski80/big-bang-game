@@ -12,6 +12,7 @@ body {
     color: black;
     text-align: center;
     align-items: center;
+    flex-direction: column;
 
 }
 
@@ -21,7 +22,7 @@ body {
     text-align: center;
     font-size: 5rem;
     background-color: #81717A;
-    ;
+    
 }
 
 .logo {
@@ -35,9 +36,8 @@ body {
 /* ----game area buttons */
 
 .play-area {
-    display: flex;
-
-    justify-content: space-between;
+   
+    align-content: center;
     padding-left: 25px;
     padding-right: 25px;
 }
@@ -61,6 +61,7 @@ button {
     padding: 25px 25px, 25px, 25px;
     background: linear-gradient(to left, transparent);
     cursor: pointer;
+    flex-direction: row;
 }
 
 button:hover {
@@ -116,10 +117,13 @@ h1 {
 }
 
 .game-rules {
-    display: flex;
-    justify-content: space-evenly;
+   
+    flex-direction: column;
+    justify-content: center;
     padding-left: 25px;
     padding-right: 25px;
+    max-width: 1000px;
+    max-height: 1000px;
 
 
 }
@@ -128,8 +132,10 @@ h1 {
     background-color: #A7ABDD;
     border: 10px solid #81717A;
     border-radius: 10%;
-    padding:15px;
-    
+    padding: 15px;
+    max-width: 1000px;
+    max-height: 1000px;
+
 
 }
 
@@ -143,6 +149,98 @@ ul {
     padding-top: 25px;
 }
 
-#footer {
-    background-color: #4D908E;
+
+
+
+/* On screens that are 1924px or less, set choice butttons to  3 in a column*/
+@media screen and (max-width: 1024px) {
+    #choices {
+        size: 85%;
+        flex-direction: column;
+    }
+
+    .logo {
+        size: 85%;
+    }
+
+    .heading {
+        font-size: 3rem;
+    }
+
+    .game-rules {
+        size: 85%;
+        flex-direction: column;
+    }
+
+    .rules {
+        font-size: 2.5rem;
+    }
+
+    .rules-image {
+        size: 85%;
+    }
+}
+
+/* On screens that are 768px or less, set choice butttons to  2 in a column */
+@media screen and (max-width: 768px) {
+    #choices {
+        size: 50%;
+        flex-direction: column;
+        column-count: 2;
+    }
+    .play-area {
+        column-count: 2;
+    }
+
+    .logo {
+        size: 75%;
+    }
+
+    .heading {
+        font-size: 3rem;
+    }
+
+    .game-rules {
+        size: 75%;
+        flex-direction: column;
+    }
+
+    .rules {
+        font-size: 2.5rem;
+    }
+
+    .rules-image {
+        size: 75%;
+    }
+}
+
+/* On screens that are 425px or less, set the choice buttons to one per column*/
+@media screen and (max-width: 425px) {
+    #choices {
+        size: 25%;
+        column-count: 1;
+        justify-content: center;
+    }
+
+    .logo {
+        size: 50%;
+    }
+
+    .heading {
+        font-size: 2.5rem;
+    }
+
+    .game-rules {
+        size: 50%;
+        flex-direction: column;
+    }
+
+    .rules {
+        font-size: 2rem;
+    }
+
+    .rules-image {
+        size: 2rem;
+    }
+
 }

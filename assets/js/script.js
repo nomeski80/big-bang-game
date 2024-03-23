@@ -23,7 +23,7 @@ const resultDisplay = document.getElementById ("resultDisplay")
 
 function playGame(playerChoice) {
 
-    const computerChoice = choices[Math.floor(Math.random() *5)];
+    const computerChoice = choices[Math.floor(Math.random() * 3)];
 let result = "";
 
 if(playerChoice === computerChoice){
@@ -35,17 +35,16 @@ if(playerChoice === computerChoice){
             break;
         case "paper":
                 result = (computerChoice === "rock") ? "YOU WIN!" : " YOU LOSE";
+                break;
         case "scissors":
                 result = (computerChoice === "paper") ? "YOU WIN!" : " YOU LOSE";
+                break;
     }
 }
 
-playerDisplay.textContent.Content = `PLAYER ${playersChoice}`;
-computerDisplay.textContent.Content = `PLAYER ${computersChoice}`;
+playerDisplay.textContent = `PLAYER: ${playerChoice}`;
+computerDisplay.textContent = `Computer ${computerChoice}`;
 resultDisplay.textContent = result;
-
- 
-
 
 //function diaplayComputerChoice() {
 
