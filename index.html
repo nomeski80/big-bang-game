@@ -25,27 +25,27 @@
 
 
         <button onclick="playGame('rock')" class="rock-button" id="rock" name="choice"><img class="rock-image"
-                src="assets/images/noun-rock-88661.png" 
-              alt=" rock icon"></button>
+                src="assets/images/noun-rock-88661.png" alt=" rock icon"></button>
         <button onclick="playGame('paper')" class="paper-button" id="paper" name="choice"><img class="paper-image"
-                src="assets/images/noun-paper-88662.png" alt="paper icon"</button>
-    <button onclick=" playGame('scissors')" class=" scissors-button" id="scissors" name="choice"><img
-                class="scissors-image" src="assets/images/noun-scissors-88666.png" alt="scissors icon"></button>
-        <button onclick="playGame('lizard')" class="lizard-button" id="lizard" name="choice"><img class="lizard-image"
-                src="assets/images/noun-lizard-88663.png" alt="lizard icon"></button>
-        <button onclick="playGame('spock')" class="spock-button" id="spock" name="choice"><img class="spock-image"
-                src="assets/images/noun-vulcan-salute-60409.png" alt="spock icon"> </button>
+                src="assets/images/noun-paper-88662.png" alt="paper icon" </button>
+            <button onclick=" playGame('scissors')" class=" scissors-button" id="scissors" name="choice"><img
+                    class="scissors-image" src="assets/images/noun-scissors-88666.png" alt="scissors icon"></button>
+            <button onclick="playGame('lizard')" class="lizard-button" id="lizard" name="choice"><img
+                    class="lizard-image" src="assets/images/noun-lizard-88663.png" alt="lizard icon"></button>
+            <button onclick="playGame('spock')" class="spock-button" id="spock" name="choice"><img class="spock-image"
+                    src="assets/images/noun-vulcan-salute-60409.png" alt="spock icon"> </button>
     </div>
 
     <!--display area for player and computer choices-->
     <div class="player-choice" id="playerDisplay">
         <h1>Player choice: <span id="user-choice"></span></h1>
-    </div <div class="computer-choice" id="computerDiaplay">
-    <h1>Computer choice: <span id="computer-choice"></span></h1>
-    <h2>Result: <span id="resultDisplay"></span></h2>
-    <button data-type="submit" id="play">Play</button>
     </div>
-
+    <div class="computer-choice" id="computerDisplay"> 
+        <h1>Computer choice: <span id="computer-choice"></span></h1>
+    
+    </div>
+<div><h2>Result: <span id="resultDisplay"></span></h2>
+    <button data-type="submit" id="play">Play</button></div>
     <!--Score-->
     <div>
         <h1 class="your-score">Your score: <span id="user-score"></span></h1>
@@ -77,6 +77,6 @@
 
     <script src="assets/js/script.js"></script>
 </body>
-<footer id="footer">Created by Nomes</footer>
+
 
 </html>
