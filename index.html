@@ -45,7 +45,7 @@
     
     </div>
 <div><h2>Result: <span id="resultDisplay"></span></h2>
-    <button data-type="submit" id="play">Play</button></div>
+   
     <!--Score-->
     <div>
         <h1 class="your-score">Your score: <span id="user-score"></span></h1>
@@ -54,16 +54,15 @@
         <h1 class="computer-score">Computer score: <span id="computer-score"></span></h1>
     </div>
 
-
-
     </div>
 
     </div>
 
     <!--rules-->
-
-    <div class="game-rules">
-        <h1>How to play...</h1>
+    <button id= "rules-button" onclick="showRules()"> <h2>Click here for rules</h2></button>
+   
+    <div id="game-rules" hidden >
+        
         <ul class="rules" id="rules">
             <li">ROCK crushes LIZARD; Rock crushes SCISSORS </li>
                 <li>PAPER covers ROCK; PAPER disproves SPOCK</li>

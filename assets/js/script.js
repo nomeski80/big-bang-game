@@ -50,9 +50,18 @@ function playGame(playerChoice) {
 
     function incrementScore() {
         let oldScore = parseInt(document.getElementById("user-score").innerText);
-        document.getElementById("user-score").innerText + oldScore;
+        document.getElementById("user-score").innerText +oldScore;
     }
 
-
+  
 
 }
+
+function showRules () {
+    var x = document.getElementById("game-rules");
+    if (x.style.display === "none") {
+        x.style.display = "block"
+    }else {
+        x.style.display = "none";
+    }
+  }

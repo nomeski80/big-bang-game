@@ -115,11 +115,12 @@ h1 {
     font-size: 50px;
 }
 
-#play .button:hover{
-    background-color: #B4D4EE;
+#rules-button {
+    border-radius: 10%;
+    max-height: 5rem;
 }
 
-.game-rules {
+#game-rules {
    
     flex-direction: row;
     justify-content: center;
