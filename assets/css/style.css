@@ -1,14 +1,16 @@
 /* --------- Global style */
 
-.krona-one-regular {
-    font-family: "Krona One", sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap') 
+
+ *{
+    font-family: "Truculenta", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
 body {
     background-color: #B4D4EE;
-    font-family: "Krona", sans-serif;
+    font-family: "Truculenta:opsz", sans-serif;
     color: black;
     text-align: center;
     align-items: center;
@@ -22,7 +24,7 @@ body {
     text-align: center;
     font-size: 5rem;
     background-color: #81717A;
-    
+
 }
 
 .logo {
@@ -121,9 +123,8 @@ h1 {
 }
 
 #game-rules {
-   
-    flex-direction: row;
     justify-content: center;
+    flex-direction: row;
     padding-left: 25px;
     padding-right: 25px;
     max-width: 1000px;
@@ -153,7 +154,15 @@ ul {
     padding-top: 25px;
 }
 
-
+footer {
+    background-color: #81717A;
+    color: black;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
 
 
 /* On screens that are 1924px or less, set choice butttons to  3 in a column*/
@@ -192,6 +201,7 @@ ul {
         flex-direction: column;
         column-count: 2;
     }
+
     .play-area {
         column-count: 2;
     }

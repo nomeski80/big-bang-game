@@ -1,39 +1,59 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Big Bang game
+## Welcome to Project 2
+This is my second website for my Code Institute Full stack developer course. I have decided to create a simple interactive game from the CI options of 'rock-paper-scissor-lizard-spock. The game is a game of chance the the idea taken from the TV series The Big Bang Theory. According the the bigbangtheory.fandom webpage, the game was originally created by sam Kass.
 
-Welcome,
+The game has 5 options and the player plays against the computer by selecting on of the buttons. The game will then randomly select its own option and then compare it with the player's choice. Then depending on the result it will say who wins. There is a score counter for both the user and the computer.
+## Homepage
+add image here
+## rules
+add image here
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## User stories
+ 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+# Design
 
-## Codeanywhere Reminders
+## Colour scheme
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+I decided on my colour scheme by picking a colour pallet from  [https://coolors.co/] This helped me to create a simple palatte that would be consistent throughout the site.
 
-`python3 -m http.server`
+## Typography
+To create a clean and consistent look, I selected 2 fonts from Google fonts [https://fonts.google.com/] . I picked ***add image*** and ***add image*** as I felt these were clear and easy to read. I also added a backup font of sans-serif to make sure text would be comapatible on all devices. 
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Imagery
+All of my images were selected from Google. The options buttons were taken from [https://thenounproject.com/search/icons/?q=big+bang+theory]
+The image to explain the rules of the game came from 
+Big Bang theory wiki page [https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock]
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+## Wire frames
+When planning out the site I used a mixture of Google slides [https://docs.google.com/presentation/d/1I12LY1pbDdL4iooFF4uohZwREEQ4EZqE-MavgFEXpl8/edit#slide=id.g2c40bf6d4af_0_7] and Balsamiq [https://balsamiq.cloud/sbglzvl/p5fmiyn/rE072] to map out how I wanted to lay out my game. I had originally taken ideas from a YouTube tutorial of how to create the game but them onve I started to create my game, I  changed it to a simpiler format. 
 
-`http_server`
+*****add images here of the changing process******
+# Features
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## General features
+Simple easy to view options for the player to select. A results and score selection to keep track of your score. I have made the page responsive to adjust screen sizes. The options scale down from 
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Future features
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Accessability 
+I have added descriptions of all images to support with screen readers. 
 
-To log into the Heroku toolbelt CLI:
+# Technologies Used
+HTML, CSS , JavaScript, Codeanywhere, Github, Dev tools, cloudconvert.com to convert my images to webp and Favicon.io. 
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+# Credits
 
----
+button images came from 
+[https://thenounproject.com/search/icons/?q=big+bang+theory]
 
-Happy coding!
+
+Structure for this README doc was taken from readme-examples [https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md#user-experience-ux]
+
+All art work and images have come from 
+
+I also used w3schools.com and the code institude tutorials to help me with my understanding of forms.
+
+## What went well, what I managed to fix and what I'm still not happy with
+
