@@ -1,8 +1,6 @@
 /* --------- Global style */
 
-@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap') 
-
- *{
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap') * {
     font-family: "Truculenta", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -250,11 +248,13 @@ footer {
     }
 
     .rules {
-        font-size: 2rem;
+
+        font-size: 20px;
     }
 
     .rules-image {
-        size: 2rem;
+        width: 200px;
+        height: 200px;
     }
 
 }
