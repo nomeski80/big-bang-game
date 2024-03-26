@@ -1,6 +1,7 @@
 /* --------- Global style */
 
-@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap') * {
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap')
+ * {
     font-family: "Truculenta", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -8,11 +9,13 @@
 
 body {
     background-color: #B4D4EE;
-    font-family: "Truculenta:opsz", sans-serif;
+    font-family: "Truculenta", sans-serif;
     color: black;
     text-align: center;
     align-items: center;
     flex-direction: column;
+    font-weight: 400;
+    font-style: normal;
 
 }
 
@@ -144,7 +147,7 @@ h1 {
 
 ul {
     font-size: 50px;
-    font-family: krona;
+    font-family: "Truculenta", sans-serif;
     list-style: none;
     background-color: #A7ABDD;
     border: 10px solid #81717A;
@@ -160,6 +163,7 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
+    margin-top: 10px;
 }
 
 

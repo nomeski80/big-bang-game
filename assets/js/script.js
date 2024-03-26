@@ -10,54 +10,66 @@ const choices = ["rock", "paper", "scissors", "lizard", "spock"];
 const playerDisplay = document.getElementById("playerDisplay");
 const computerDisplay = document.getElementById("computerDisplay");
 const resultDisplay = document.getElementById("resultDisplay")
+const userScore = document.getElementById()
 
 
 //player picks then the computer creates a random choice
 function playGame(playerChoice) {
 
+    let playerHasWon = false;
+
     const computerChoice = choices[Math.floor(Math.random() * 5)];
     let result = "";
 
-// compares the choices
-if (playerChoice === computerChoice) {
+    // compares the choices
+    if (playerChoice === computerChoice) {
         result = "It's a tie!"
     } else {
         switch (playerChoice) {
             case "rock":
-                result = (computerChoice === "scissors", "lizard") ? "YOU WIN!" : " YOU LOSE";
-                incrementPlayerScore()
+                playerHasWon = (computerChoice === "scissors" || computerChoice === "lizard");
+                result = playerHasWon ? "YOU WIN!" : " YOU LOSE";
+                playerHasWon ? incrementPlayerScore() : incrementComputerScore();
                 break;
             case "paper":
-                result = (computerChoice === "rock", "spock") ? "YOU WIN!" : "YOU LOSE";
-                incrementPlayerScore()
+                playerHasWon = (computerChoice === "rock" || computerChoice === "spock");
+                result = playerHasWon ? "YOU WIN!" : " YOU LOSE";
+                playerHasWon ? incrementPlayerScore() : incrementComputerScore();
                 break;
             case "scissors":
-                result = (computerChoice === "paper", "lizard") ? "YOU WIN!" : "YOU LOSE";
-                incrementPlayerScore()
+                playerHasWon = (computerChoice === "paper" || computerChoice === "lizard");
+                result = playerHasWon ? "YOU WIN!" : " YOU LOSE";
+                playerHasWon ? incrementPlayerScore() : incrementComputerScore();
                 break;
             case "lizard":
-                result = (computerChoice === "paper", "spock") ? "YOU WIN!" : "YOU LOSE";
-                incrementPlayerScore()
+                playerHasWon = (computerChoice === "paper" || computerChoice === "spock");
+                result = playerHasWon ? "YOU WIN!" : " YOU LOSE";
+                playerHasWon ? incrementPlayerScore() : incrementComputerScore();
                 break
             case "spock":
-                result = (computerChoice === "rock", "scissors") ? "YOU WIN!" : " YOU LOSE";
-                incrementPlayerScore() 
+                playerHasWon = (computerChoice === "rock" || computerChoice === "scissors");
+                result = playerHasWon ? "YOU WIN!" : " YOU LOSE";
+                playerHasWon ? incrementPlayerScore() : incrementComputerScore();
                 break;
         }
     }
     //need to add a call function here to 'if' you win incrementScore
-//
+    //
     playerDisplay.textContent = `PLAYER: ${playerChoice}`;
     computerDisplay.textContent = `COMPUTER: ${computerChoice}`;
     // display winner
     resultDisplay.textContent = result;
 
 }
+
+let newUserScore = 0
 //add score to the player
 function incrementPlayerScore() {
 
     let userScore = parseInt(document.getElementById("user-score").innerText);
-    document.getElementById("user-score").innerText = ++oldScore;
+    userScore++
+    document.getElementById("user-score").innerText = userScore;
+    console.log(newUserScore);
 
 }
 
@@ -65,7 +77,8 @@ function incrementPlayerScore() {
 function incrementComputerScore() {
 
     let computerScore = parseInt(document.getElementById("computer-score").innerText);
-    document.getElementById("computer-score").innerText = ++oldScore;
+    computerScore++;
+    document.getElementById("computer-score").innerText = computerScore;
 
 }
 

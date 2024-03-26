@@ -5,18 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Google fonts links-->
-       <style> @import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap')</style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap')
+    </style>
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Big Bang Game</title>
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest"> 
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 </head>
 
 <body>
     <!--header and logo-->
-    <h1 class="heading"><img class="logo" src="assets/images/noun-vulcan-salute-60409.png">Rock, Paper, Lizard or Spock?
+    <h1 class="heading"><img class="logo" src="assets/images/noun-vulcan-salute-60409.png" alt="spock salute">Rock,
+        Paper, Lizard or Spock?
     </h1>
 
     <!--game buttons area-->
@@ -25,44 +28,47 @@
 
 
         <button onclick="playGame('rock')" class="rock-button" id="rock" name="choice"><img class="rock-image"
-                src="assets/images/noun-rock-88661.png" alt=" rock icon"></button>
+                src="assets/images/noun-rock-88661.png" alt="rock icon"></button>
         <button onclick="playGame('paper')" class="paper-button" id="paper" name="choice"><img class="paper-image"
-                src="assets/images/noun-paper-88662.png" alt="paper icon" </button>
-            <button onclick=" playGame('scissors')" class=" scissors-button" id="scissors" name="choice"><img
-                    class="scissors-image" src="assets/images/noun-scissors-88666.png" alt="scissors icon"></button>
-            <button onclick="playGame('lizard')" class="lizard-button" id="lizard" name="choice"><img
-                    class="lizard-image" src="assets/images/noun-lizard-88663.png" alt="lizard icon"></button>
-            <button onclick="playGame('spock')" class="spock-button" id="spock" name="choice"><img class="spock-image"
-                    src="assets/images/noun-vulcan-salute-60409.png" alt="spock icon"> </button>
+                src="assets/images/noun-paper-88662.png" alt="paper icon"></button>
+        <button onclick=" playGame('scissors')" class=" scissors-button" id="scissors" name="choice"><img
+                class="scissors-image" src="assets/images/noun-scissors-88666.png" alt="scissors icon"></button>
+        <button onclick="playGame('lizard')" class="lizard-button" id="lizard" name="choice"><img class="lizard-image"
+                src="assets/images/noun-lizard-88663.png" alt="lizard icon"></button>
+        <button onclick="playGame('spock')" class="spock-button" id="spock" name="choice"><img class="spock-image"
+                src="assets/images/noun-vulcan-salute-60409.png" alt="spock icon"> </button>
     </div>
 
     <!--display area for player and computer choices-->
     <div class="player-choice" id="playerDisplay">
         <h1>Player choice: <span id="user-choice"></span></h1>
     </div>
-    <div class="computer-choice" id="computerDisplay"> 
+    <div class="computer-choice" id="computerDisplay">
         <h1>Computer choice: <span id="computer-choice"></span></h1>
-    
-    </div>
-<div><h2>Result: <span id="resultDisplay"></span></h2>
-   
-    <!--Score-->
-    <div>
-        <h1 class="your-score">Your score: <span id="user-score"></span></h1>
+
     </div>
     <div>
-        <h1 class="computer-score">Computer score: <span id="computer-score"></span></h1>
-    </div>
+        <h2>Result: <span id="resultDisplay"></span></h2>
+
+        <!--Score-->
+        <div>
+            <h1 class="your-score">Your score:<span id="user-score">0</span></h1>
+        </div>
+        <div>
+            <h1 class="computer-score">Computer score: <span id="computer-score">0</span></h1>
+        </div>
 
     </div>
 
     </div>
 
     <!--rules-->
-    <button id= "rules-button" onclick="showRules()"> <h2>Click here for rules</h2></button>
-   
-    <div id="game-rules" hidden >
-        
+    <button id="rules-button" onclick="showRules()">
+        <h2>Click here for rules</h2>
+    </button>
+
+    <div id="game-rules" hidden>
+
         <ul class="rules" id="rules">
             <li">ROCK crushes LIZARD; Rock crushes SCISSORS </li>
                 <li>PAPER covers ROCK; PAPER disproves SPOCK</li>
