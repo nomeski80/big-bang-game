@@ -9,8 +9,8 @@
 const choices = ["rock", "paper", "scissors", "lizard", "spock"];
 const playerDisplay = document.getElementById("playerDisplay");
 const computerDisplay = document.getElementById("computerDisplay");
-const resultDisplay = document.getElementById("resultDisplay")
-const userScore = document.getElementById()
+const resultDisplay = document.getElementById("resultDisplay");
+const userScore = document.getElementById();
 
 
 //player picks then the computer creates a random choice
@@ -23,7 +23,7 @@ function playGame(playerChoice) {
 
     // compares the choices
     if (playerChoice === computerChoice) {
-        result = "It's a tie!"
+        result = "It's a tie!";
     } else {
         switch (playerChoice) {
             case "rock":
@@ -45,7 +45,7 @@ function playGame(playerChoice) {
                 playerHasWon = (computerChoice === "paper" || computerChoice === "spock");
                 result = playerHasWon ? "YOU WIN!" : " YOU LOSE";
                 playerHasWon ? incrementPlayerScore() : incrementComputerScore();
-                break
+                break;
             case "spock":
                 playerHasWon = (computerChoice === "rock" || computerChoice === "scissors");
                 result = playerHasWon ? "YOU WIN!" : " YOU LOSE";
@@ -67,7 +67,7 @@ let newUserScore = 0
 function incrementPlayerScore() {
 
     let userScore = parseInt(document.getElementById("user-score").innerText);
-    userScore++
+    userScore++;
     document.getElementById("user-score").innerText = userScore;
     console.log(newUserScore);
 
@@ -86,7 +86,7 @@ function incrementComputerScore() {
 function showRules() {
     var x = document.getElementById("game-rules");
     if (x.style.display === "none") {
-        x.style.display = "block"
+        x.style.display = "block";
     } else {
         x.style.display = "none";
     }

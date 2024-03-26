@@ -56,12 +56,10 @@ button {
 
     height: 300px;
     width: 300px;
-    border-radius: solid;
     border-radius: 50%;
     background-color: #A7ABDD;
     border: 10px solid #81717A;
-    padding: 25px 25px, 25px, 25px;
-    background: linear-gradient(to left, transparent);
+    padding: 25px, 25px, 25px, 25px;
     cursor: pointer;
     flex-direction: row;
 }
@@ -121,6 +119,7 @@ h1 {
 #rules-button {
     border-radius: 10%;
     max-height: 5rem;
+    font-size: 24px;
 }
 
 #game-rules {
@@ -175,7 +174,7 @@ footer {
     }
 
     .logo {
-        size: 85%;
+        resize: 85%;
     }
 
     .heading {
@@ -183,7 +182,7 @@ footer {
     }
 
     .game-rules {
-        size: 85%;
+        resize:85%;
         flex-direction: column;
     }
 
@@ -192,14 +191,14 @@ footer {
     }
 
     .rules-image {
-        size: 85%;
+        resize:85%;
     }
 }
 
 /* On screens that are 768px or less, set choice butttons to  2 in a column */
 @media screen and (max-width: 768px) {
     #choices {
-        size: 50%;
+        resize:50%;
         flex-direction: column;
         column-count: 2;
     }
@@ -209,7 +208,7 @@ footer {
     }
 
     .logo {
-        size: 75%;
+        resize:75%;
     }
 
     .heading {
@@ -217,7 +216,7 @@ footer {
     }
 
     .game-rules {
-        size: 75%;
+        resize:75%;
         flex-direction: column;
     }
 
@@ -226,20 +225,20 @@ footer {
     }
 
     .rules-image {
-        size: 75%;
+        resize:75%;
     }
 }
 
 /* On screens that are 425px or less, set the choice buttons to one per column*/
 @media screen and (max-width: 425px) {
     #choices {
-        size: 25%;
+        size:25%;
         column-count: 1;
         justify-content: center;
     }
 
     .logo {
-        size: 50%;
+        resize:50%;
     }
 
     .heading {
@@ -247,7 +246,7 @@ footer {
     }
 
     .game-rules {
-        size: 50%;
+        resize:50%;
         flex-direction: column;
     }
 
