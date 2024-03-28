@@ -1,10 +1,10 @@
-// Wait for the DOM to finish loading befre running the game
+ //Wait for the DOM to finish loading before running the game
 //Document.addEventListener("DOMContentLoaded", function () {
-//   let buttons = document.getElementsByTagName("button")
+  // let buttons = document.getElementsByTagName("button")
 
-// function runGame() {
+ //function runGame() {
 
-//  }
+ // }
 
 const choices = ["rock", "paper", "scissors", "lizard", "spock"];
 const playerDisplay = document.getElementById("playerDisplay");
@@ -14,6 +14,11 @@ const userScore = document.getElementById();
 
 
 //player picks then the computer creates a random choice
+button.addEventListener("click", playerChoice);
+
+function playGame() {
+  alert ("Hello World!");
+}
 function playGame(playerChoice) {
 
     let playerHasWon = false;

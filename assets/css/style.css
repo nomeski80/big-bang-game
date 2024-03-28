@@ -1,15 +1,18 @@
-/* --------- Global style */
+/*google fonts inport*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Ubuntu:ital@1&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap')
- * {
-    font-family: "Truculenta", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+
+/*asterix wildcard selector to override default styles added by the browser*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
 }
-
 body {
     background-color: #B4D4EE;
-    font-family: "Truculenta", sans-serif;
+    font-family: "quicksand", sans-serif;
     color: black;
     text-align: center;
     align-items: center;
@@ -42,6 +45,7 @@ body {
 
     padding-left: 25px;
     padding-right: 25px;
+    fill-opacity: inherit;
 }
 
 #buttons {
@@ -62,6 +66,7 @@ button {
     padding: 25px, 25px, 25px, 25px;
     cursor: pointer;
     flex-direction: row;
+
 }
 
 button:hover {
@@ -120,6 +125,7 @@ h1 {
     border-radius: 10%;
     max-height: 5rem;
     font-size: 24px;
+    font-family: quicksilver;
 }
 
 #game-rules {
@@ -182,7 +188,7 @@ footer {
     }
 
     .game-rules {
-        resize:85%;
+        resize: 85%;
         flex-direction: column;
     }
 
@@ -191,14 +197,14 @@ footer {
     }
 
     .rules-image {
-        resize:85%;
+        resize: 85%;
     }
 }
 
 /* On screens that are 768px or less, set choice butttons to  2 in a column */
 @media screen and (max-width: 768px) {
     #choices {
-        resize:50%;
+        resize: 50%;
         flex-direction: column;
         column-count: 2;
     }
@@ -208,7 +214,7 @@ footer {
     }
 
     .logo {
-        resize:75%;
+        resize: 75%;
     }
 
     .heading {
@@ -216,7 +222,7 @@ footer {
     }
 
     .game-rules {
-        resize:75%;
+        resize: 75%;
         flex-direction: column;
     }
 
@@ -225,20 +231,20 @@ footer {
     }
 
     .rules-image {
-        resize:75%;
+        resize: 75%;
     }
 }
 
 /* On screens that are 425px or less, set the choice buttons to one per column*/
 @media screen and (max-width: 425px) {
     #choices {
-        size:25%;
+        size: 25%;
         column-count: 1;
         justify-content: center;
     }
 
     .logo {
-        resize:50%;
+        resize: 50%;
     }
 
     .heading {
@@ -246,7 +252,7 @@ footer {
     }
 
     .game-rules {
-        resize:50%;
+        resize: 50%;
         flex-direction: column;
     }
 

@@ -42,6 +42,15 @@ I have added descriptions of all images to support with screen readers.
 # Technologies Used
 HTML, CSS , JavaScript, Codeanywhere, Github, Dev tools, cloudconvert.com to convert my images to webp and Favicon.io. 
 
+## Testing
+
+## Validator testing
+
+## bugs
+
+## unfixed bugs
+
+## Deployment
 
 # Credits
 
