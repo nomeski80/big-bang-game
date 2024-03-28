@@ -10,6 +10,187 @@
     box-sizing: border-box;
 
 }
+
+body {
+    background-color: #B4D4EE;
+    font-family: "quicksand", sans-serif;
+    color: black;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+/* --------- Heading */
+
+.heading {
+    text-align: center;
+    font-size: 5rem;
+    background-color: #81717A;
+
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    padding-right: 5px;
+    padding-top: 20px;
+}
+
+
+/* ----game area buttons */
+
+.play-area {
+
+    padding-left: 25px;
+    padding-right: 25px;
+    fill-opacity: inherit;
+}
+
+#buttons {
+
+    align-items: center;
+    height: 900px;
+    width: 900px;
+    background-color: #A7ABDD;
+}
+
+button {
+
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: #A7ABDD;
+    border: 10px solid #81717A;
+    padding: 25px;
+    cursor: pointer;
+    flex-direction: row;
+
+}
+
+button:hover {
+    background-color: #B4D4EE;
+}
+
+.play-area,
+image {
+    width: 100%;
+
+}
+
+/* choices area*/
+.rock-image {
+    height: 200px;
+    width: 200px;
+}
+
+.paper-image {
+    height: 200px;
+    width: 200px;
+}
+
+.scissors-image {
+    height: 200px;
+    width: 200px;
+}
+
+.lizard-image {
+    height: 200px;
+    width: 200px;
+}
+
+.spock-image {
+    height: 200px;
+    width: 200px;
+}
+
+#play {
+    height: 100px;
+    width: 200px;
+    border-radius: 10%;
+    background-color: #A7ABDD;
+    border: 10px solid #81717A;
+    font-size: 30px;
+}
+
+.player-choice {
+    font-size: 3.5rem;
+    color: black
+}
+
+.computer-choice {
+    font-size: 3.5rem;
+    color: black;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#rules-button {
+    border-radius: 10%;
+    max-height: 5rem;
+    font-size: 24px;
+    font-family: quicksilver;
+}
+
+#game-rules {
+    justify-content: center;
+    flex-direction: row;
+    padding-left: 25px;
+    padding-right: 25px;
+    max-width: 1000px;
+    max-height: 1000px;
+
+
+}
+
+.rules-image {
+    background-color: #A7ABDD;
+    border: 10px solid #81717A;
+    border-radius: 10%;
+    padding: 15px;
+    max-width: 1000px;
+    max-height: 1000px;
+}
+
+ul {
+    font-size: 50px;
+    font-family: "Truculenta", sans-serif;
+    list-style: none;
+    background-color: #A7ABDD;
+    border: 10px solid #81717A;
+    border-radius: 10%;
+    padding-top: 25px;
+}
+
+footer {
+    background-color: #81717A;
+    color: black;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/*google fonts inport*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Ubuntu:ital@1&display=swap');
+
+
+/*asterix wildcard selector to override default styles added by the browser*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
 body {
     background-color: #B4D4EE;
     font-family: "quicksand", sans-serif;
@@ -73,31 +254,30 @@ button:hover {
     background-color: #B4D4EE;
 }
 
-.rock-image {
-    height: 200px;
-    width: 200px;
+.play-area,
+image {
+    width: 100%;
+
 }
 
-.paper-image {
-    height: 200px;
-    width: 200px;
+
+#rock,
+#paper,
+#scissors,
+#lizard,
+#spock {
+    width: 250px;
+    height: 250px;
 }
 
-.scissors-image {
-    height: 200px;
-    width: 200px;
-}
-
-.lizard-image {
-    height: 200px;
-    width: 200px;
-}
-
+.rock-image,
+.scissors-image,
+.paper-image,
+.lizard-image,
 .spock-image {
-    height: 200px;
     width: 200px;
+    height: 200px;
 }
-
 #play {
     height: 100px;
     width: 200px;
@@ -266,4 +446,324 @@ footer {
         height: 200px;
     }
 
+}
+
+/*google fonts inport*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Ubuntu:ital@1&display=swap');
+
+
+/*asterix wildcard selector to override default styles added by the browser*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #B4D4EE;
+    font-family: "quicksand", sans-serif;
+    color: black;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+/* --------- Heading */
+
+.heading {
+    text-align: center;
+    font-size: 5rem;
+    background-color: #81717A;
+
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    padding-right: 5px;
+    padding-top: 20px;
+}
+
+
+/* ----game area buttons */
+
+.play-area {
+
+    padding-left: 25px;
+    padding-right: 25px;
+    fill-opacity: inherit;
+}
+
+#buttons {
+
+    align-items: center;
+    height: 900px;
+    width: 900px;
+    background-color: #A7ABDD;
+}
+
+button {
+
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: #A7ABDD;
+    border: 10px solid #81717A;
+    padding: 25px, 25px, 25px, 25px;
+    cursor: pointer;
+    flex-direction: row;
+
+}
+
+button:hover {
+    background-color: #B4D4EE;
+}
+
+#rock,
+#paper,
+#scissors,
+#lizard,
+#spock {
+    width: 150px;
+    height: 150px;
+}
+
+.rock-image,
+.scissors-image,
+.paper-image,
+.lizard-image,
+.spock-image {
+    width: 120px;
+    height: 120px;
+}
+
+
+
+#play {
+    height: 100px;
+    width: 200px;
+    border-radius: 10%;
+    background-color: #A7ABDD;
+    border: 10px solid #81717A;
+    font-size: 30px;
+}
+
+.player-choice {
+    font-size: 3.5rem;
+    color: black
+}
+
+.computer-choice {
+    font-size: 3.5rem;
+    color: black;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#rules-button {
+    border-radius: 10%;
+    max-height: 5rem;
+    font-size: 24px;
+    font-family: quicksilver;
+}
+
+#game-rules {
+    justify-content: center;
+    flex-direction: row;
+    padding-left: 25px;
+    padding-right: 25px;
+    max-width: 1000px;
+    max-height: 1000px;
+
+
+}
+
+.rules-image {
+    background-color: #A7ABDD;
+    border: 10px solid #81717A;
+    border-radius: 10%;
+    padding: 15px;
+    max-width: 1000px;
+    max-height: 1000px;
+
+
+}
+
+ul {
+    font-size: 50px;
+    font-family: "Truculenta", sans-serif;
+    list-style: none;
+    background-color: #A7ABDD;
+    border: 10px solid #81717A;
+    border-radius: 10%;
+    padding-top: 25px;
+}
+
+footer {
+    background-color: #81717A;
+    color: black;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/* On screens that are 1924px or less, set choice butttons to  3 in a column*/
+@media screen and (max-width: 1024px) {
+    #choices {
+        size: 85%;
+        flex-direction: column;
+    }
+
+    .logo {
+        resize: 85%;
+    }
+
+    .heading {
+        font-size: 3rem;
+    }
+
+    #rock,
+    #paper,
+    #scissors,
+    #lizard,
+    #spock {
+        width: 90px;
+        height: 90px;
+    }
+
+    .rock-image,
+    .scissors-image,
+    .paper-image,
+    .lizard-image,
+    .spock-image {
+        width: 75px;
+        height: 75px;
+    }
+
+    .game-rules {
+        resize: 85%;
+        flex-direction: column;
+    }
+
+    .rules {
+        font-size: 2.5rem;
+    }
+
+    .rules-image {
+        resize: 85%;
+    }
+}
+
+/* On screens that are 768px or less, set choice butttons to  2 in a column */
+@media screen and (max-width: 768px) {
+    #choices {
+        size: 25%;
+        column-count: 1;
+        justify-content: center;
+    }
+
+    #rock,
+    #paper,
+    #scissors,
+    #lizard,
+    #spock {
+        width: 100px;
+        height: 100px;
+    }
+
+    .rock-image,
+    .scissors-image,
+    .paper-image,
+    .lizard-image,
+    .spock-image {
+        width: 60px;
+        height: 60px;
+    }
+
+    .play-area {
+        column-count: 2;
+    }
+
+    .logo {
+        resize: 75%;
+    }
+
+    .heading {
+        font-size: 3rem;
+    }
+
+    .game-rules {
+        resize: 75%;
+        flex-direction: column;
+    }
+
+    .rules {
+        font-size: 2.5rem;
+    }
+
+    .rules-image {
+        resize: 75%;
+    }
+
+    h1 {
+        font-size: smaller;
+    }
+}
+
+/* On screens that are 425px or less, set the choice buttons to one per column*/
+@media screen and (max-width: 425px) {
+    #choices {
+        size: 25%;
+        column-count: 1;
+        justify-content: center;
+    }
+
+    .heading {
+        font-size: 2.5rem;
+        padding :5px;
+    }
+
+   
+
+    .logo,
+    .rock-image,
+    .scissors-image,
+    .paper-image,
+    .lizard-image,
+    .spock-image {
+        width: 70px;
+        height: 70px;
+        padding-top: 5px;
+    }
+
+    .game-rules {
+        resize: 50%;
+        flex-direction: column;
+    }
+
+    .rules {
+
+        font-size: 20px;
+    }
+
+    .rules-image {
+        width: 200px;
+        height: 200px;
+    }
+
+    #player-choice,
+    #computer-choice {
+        font-size: 20px;
+    }
 }

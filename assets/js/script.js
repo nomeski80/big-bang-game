@@ -14,11 +14,8 @@ const userScore = document.getElementById();
 
 
 //player picks then the computer creates a random choice
-button.addEventListener("click", playerChoice);
 
-function playGame() {
-  alert ("Hello World!");
-}
+
 function playGame(playerChoice) {
 
     let playerHasWon = false;
