@@ -1,10 +1,4 @@
- //Wait for the DOM to finish loading before running the game
-//Document.addEventListener("DOMContentLoaded", function () {
-  // let buttons = document.getElementsByTagName("button")
-
- //function runGame() {
-
- // }
+ 
 
 const choices = ["rock", "paper", "scissors", "lizard", "spock"];
 const playerDisplay = document.getElementById("playerDisplay");
@@ -55,8 +49,7 @@ function playGame(playerChoice) {
                 break;
         }
     }
-    //need to add a call function here to 'if' you win incrementScore
-    //
+    
     playerDisplay.textContent = `PLAYER: ${playerChoice}`;
     computerDisplay.textContent = `COMPUTER: ${computerChoice}`;
     // display winner

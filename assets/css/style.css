@@ -59,8 +59,8 @@ body {
 
 button {
 
-    height: 300px;
-    width: 300px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
     background-color: #A7ABDD;
     border: 10px solid #81717A;
@@ -76,7 +76,7 @@ button:hover {
 
 .play-area,
 image {
-    width: 100%;
+    width: 200%;
 
 }
 
@@ -87,8 +87,8 @@ image {
 }
 
 .paper-image {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
 }
 
 .scissors-image {

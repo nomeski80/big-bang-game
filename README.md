@@ -5,9 +5,9 @@ This is my second website for my Code Institute Full stack developer course. I h
 The game has 5 options and the player plays against the computer by selecting on of the buttons. The game will then randomly select its own option and then compare it with the player's choice. Then depending on the result it will say who wins. There is a score counter for both the user and the computer.
 ## Homepage
 
-[game main page](/assets/images/homepage.png)
+![game main page](/assets/images/homepage.png)
 ## rules
-I researched the rules of the game from the Big Bang Theory wiki page [https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock] 
+I researched the rules of the game from the (Big Bang Theory wiki page)[https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock] 
 ROCK crushes LIZARD; Rock crushes SCISSORS
 PAPER covers ROCK; PAPER disproves SPOCK
 SCISSORS cuts PAPER; SCISSORS decapitates LIZARD
@@ -25,12 +25,12 @@ SPOCK vaporizes ROCK; SPOCK smashes SCISSORS
 I decided on my colour scheme by picking a colour pallet from  [https://coolors.co/] This helped me to create a simple palatte that would be consistent throughout the site.
 
 ## Typography
-To create a clean and consistent look, I selected 2 fonts from Google fonts [https://fonts.google.com/] . I picked Quicksand as I felt it was clear and easy to read. I also added a backup font of sans-serif to make sure text would be comapatible on all devices. 
+To create a clean and consistent look, I selected 2 fonts from (Google fonts) [https://fonts.google.com/] . I picked Quicksand as I felt it was clear and easy to read. I also added a backup font of sans-serif to make sure text would be comapatible on all devices. 
 
 ## Imagery
-All of my images were selected from Google. The options buttons were taken from [https://thenounproject.com/search/icons/?q=big+bang+theory]
+All of my images were selected from Google. The options buttons were taken from(the noun project) [https://thenounproject.com/search/icons/?q=big+bang+theory]
 The image to explain the rules of the game came from 
-Big Bang theory wiki page [https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock]
+(Big Bang theory wiki page) [https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock]
 
 ## Wire frames
 When planning out the site I used a mixture of Google slides [https://bit.ly/3PIdccC] and Balsamiq to map out how I wanted to lay out my game. I did a little research on other people's games that were similer but I addapted these to make it my own. 
@@ -52,7 +52,7 @@ HTML, CSS , JavaScript, Codeanywhere, Github, Dev tools, cloudconvert.com to con
 All checks have been completed with zero errors but several warnings with JavaScript. The lighthouse checked came up with 100 accessablility but only 85 for the performance. ![css checker results](/assets/images/css-check.png) ![html checker results](/assets/images/html-check.png) ![JavaScript checker results](/assets/images/js-check.png)
 
 ## bugs
-The font link was not working for most of my project unless I added the link to html. However, I changed the type of font and tried to add that to css and it appeared to work then. I had a problem to connect my playGame function, I was not calling the function from anywhere. I needed to go back to the html and add onclick="playGame('lizard')" to all the choices. I used tutor support to help me. There was a problem to get the computerChoice to work, turned out to be a typo in the HTML. So once fixed, it is now functional. The Rules of the game were not keeping in the middle of the page but ater reviewing how to use flexbox again I remembered how to solve this. I also wanted the rules to be hidden unless the rules button is pushed. The advice from https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp not working. I contacted the tutoring service and they explained that I needed to keep my functions separate so they could be read by the browser. I moved the function to sit below the playGame function and now it works smoothly.
+The font link was not working for most of my project unless I added the link to html. However, I changed the type of font and tried to add that to css and it appeared to work then. I had a problem to connect my playGame function, I was not calling the function from anywhere. I needed to go back to the html and add onclick="playGame('lizard')" to all the choices. I used tutor support to help me. There was a problem to get the computerChoice to work, turned out to be a typo in the HTML. So once fixed, it is now functional. The Rules of the game were not keeping in the middle of the page but ater reviewing how to use flexbox again I remembered how to solve this. I also wanted the rules to be hidden unless the rules button is pushed. The advice from (w3schools)[https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp] not working. I contacted the tutoring service and they explained that I needed to keep my functions separate so they could be read by the browser. I moved the function to sit below the playGame function and now it works smoothly.
 
 For a while I would only win or tie never lose… it turns out I had used a comma between the option and had forgotted to use the || symbols for or. Once this was added, the program would work through the options and then it would show if th eplayer had lost a round. 
 The footer was floating up the page. I needed to use position absolute and index z to keep it at the bottom. Solution came from shecodes.io
@@ -61,15 +61,39 @@ The footer was floating up the page. I needed to use position absolute and index
 I am still not very happy with the responsiveness of the page. I think there should be a simpler and more efficiant way to do this but it seems to work for now. 
 
 ## Deployment
-My project was deployed to GitHub before my final mentor meeting. [https://nomeski80.github.io/big-bang-game/]
+The project was deployed to GitHub Pages using the following steps...
 
-# Credits
+Log in to GitHub and locate (The Big Bang Game repository)[https://nomeski80.github.io/big-bang-game/]
+Look for the "Settings" Button on the menu at the top of the page.
+Within the Settings page, scroll down until you find the "GitHub Pages" Section.
+Under "Source", click the dropdown called "None" and select "Master Branch".
+The page will automatically refresh.
+To locate the now published site link in the "GitHub Pages" section, Scroll back down through the page.
 
-The button images came from 
+## Forking the GitHub Repository
+To make a copy of this repository to edit and view yourself without affecting the original repository, you can use fork the GitHub Repository 
+
+Log in to GitHub and locate (The Big Bang Game repository)[https://nomeski80.github.io/big-bang-game/]
+Locate the "Fork" Button, at the top of the repository page.
+This should create a copy of the original repository in your own GitHub account.
+
+## Making a Local Clone
+Log in to GitHub and locate the (The Big Bang Game repository)[https://nomeski80.github.io/big-bang-game/]
+Click "Clone or download", found under the repository name.
+To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+Open Git Bash
+You can change the current working directory to the location where you want the cloned directory to be made.
+Type git clone, and then paste the URL you previously copied.
+ 
+
+## Credits
+
+The button images came from (the noun project) 
 [https://thenounproject.com/search/icons/?q=big+bang+theory]
 
 
-Structure for this README doc was taken from readme-examples [https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md#user-experience-ux]
+Structure for this README doc was taken from (readme-examples) [https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md#user-experience-ux]
+and the (Code insitiute example) [https://github.com/Code-Institute-Solutions/SampleREADME]
 
 All art work and images have come from the noun project. 
 
