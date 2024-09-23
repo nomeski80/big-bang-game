@@ -1,12 +1,12 @@
 # Big Bang game
-![game screenshots on different screens](/assets/images/responsive.png)
+![game screenshots on different screens](/assets/images/responsive-two.png)
 ## Welcome to Project 2
 This is my second website for my Code Institute Full stack developer course. [Click here to access deployed game](https://nomeski80.github.io/big-bang-game/) I have decided to create a simple interactive game from the CI options of 'rock-paper-scissor-lizard-spock. The game is a game of chance the the idea taken from the TV series The Big Bang Theory. According the the bigbangtheory.fandom webpage, the game was originally created by Sam Kass.
 
 The game has 5 options and the player plays against the computer by selecting on of the buttons. The game will then randomly select its own option and then compare it with the player's choice. Then depending on the result it will say who wins. There is a score counter for both the user and the computer.
 ## Homepage
 
-![game main page](/assets/images/homepage.png)
+![game main page](/assets/images/homepage-two.png)
 ## rules
 I researched the rules of the game from the [Big Bang Theory wiki page](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock) 
 ROCK crushes LIZARD; Rock crushes SCISSORS
@@ -57,8 +57,8 @@ All checks have been completed with zero errors but several warnings with JavaSc
 **Feature**|**Expected Outcome**|**Testing Performed**|**Result**|**Pass/Fail**
 :-----:|:-----:|:-----:|:-----:|:-----:
 home page loads as expected on desktop and mobile|page to game to load and be functional on both larger and smaller screens|opened site|webpage opened as expected|pass 
-rules for the game extends as expected on desktop and mobile|Rules to pop open and close when the button is clicked|checked with dev tools on both pc and mobile screens|rules do appear, however not entered on a large screen and you need to scroll down on the mobile screen|pass
-game icons adjust as expected to make them visable on both  desktop and mobile|options for the game to change from a row to a block to make them easier to view on a small screen|checked with dev tools on both pc and mobile screens|icon buttons do adjust but they are not well centered when on the smaller screen.|pass
+rules for the game extends as expected on desktop and mobile|Rules to pop open and close when the button is clicked|checked with dev tools on both pc and mobile screens|rules are clear and do appear on the second click|pass
+game icons adjust as expected to make them visable on both  desktop and mobile|options for the game to change from a row to a block to make them easier to view on a small screen|checked with dev tools on both pc and mobile screens|icon buttons do adjust .|pass
 lighthouse checks on both desktop and mobile for all three pages|over 90 score on lighthouse check|lighthouse scan in dev tools|96% performance|pass
 w3c css validator|no errors or warnings|W3C CSS vlidation checker|no errors found|pass
 nu HTML validator|no erroes or warnings|Nu HTML checker|no errors or warnings found|pass
@@ -83,9 +83,10 @@ The project was deployed to GitHub Pages using the following steps...
 Log in to GitHub and locate [The Big Bang Game repository](https://nomeski80.github.io/big-bang-game/)
 Look for the "Settings" Button on the menu at the top of the page.
 Within the Settings page, scroll down until you find the "GitHub Pages" Section.
-Under "Source", click the dropdown called "None" and select "Master Branch".
+Under "Source", click the dropdown called "None" and select "Main Branch" and save.
 The page will automatically refresh.
 To locate the now published site link in the "GitHub Pages" section, Scroll back down through the page.
+The site has now been deployed.
 
 ## Forking the GitHub Repository
 To make a copy of this repository to edit and view yourself without affecting the original repository, you can use fork the GitHub Repository 
