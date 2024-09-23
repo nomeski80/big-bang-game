@@ -1,7 +1,7 @@
 # Big Bang game
 ![game screenshots on different screens](/assets/images/responsive.png)
 ## Welcome to Project 2
-This is my second website for my Code Institute Full stack developer course. I have decided to create a simple interactive game from the CI options of 'rock-paper-scissor-lizard-spock. The game is a game of chance the the idea taken from the TV series The Big Bang Theory. According the the bigbangtheory.fandom webpage, the game was originally created by Sam Kass.
+This is my second website for my Code Institute Full stack developer course. [Click here to access deployed game](https://nomeski80.github.io/big-bang-game/) I have decided to create a simple interactive game from the CI options of 'rock-paper-scissor-lizard-spock. The game is a game of chance the the idea taken from the TV series The Big Bang Theory. According the the bigbangtheory.fandom webpage, the game was originally created by Sam Kass.
 
 The game has 5 options and the player plays against the computer by selecting on of the buttons. The game will then randomly select its own option and then compare it with the player's choice. Then depending on the result it will say who wins. There is a score counter for both the user and the computer.
 ## Homepage
@@ -52,6 +52,22 @@ HTML, CSS , JavaScript, Codeanywhere, Github, Dev tools, cloudconvert.com to con
 ## Validator testing
 All checks have been completed with zero errors but several warnings with JavaScript. The lighthouse checked came up with 100 accessablility but only 85 for the performance. ![css checker results](/assets/images/css-check.png) ![html checker results](/assets/images/html-check.png) ![JavaScript checker results](/assets/images/js-check.png)
 
+
+## Manual testing
+**Feature**|**Expected Outcome**|**Testing Performed**|**Result**|**Pass/Fail**
+:-----:|:-----:|:-----:|:-----:|:-----:
+home page loads as expected on desktop and mobile|page to game to load and be functional on both larger and smaller screens|opened site|webpage opened as expected|pass 
+rules for the game extends as expected on desktop and mobile|Rules to pop open and close when the button is clicked|checked with dev tools on both pc and mobile screens|rules do appear, however not entered on a large screen and you need to scroll down on the mobile screen|pass
+game icons adjust as expected to make them visable on both  desktop and mobile|options for the game to change from a row to a block to make them easier to view on a small screen|checked with dev tools on both pc and mobile screens|icon buttons do adjust but they are not well centered when on the smaller screen.|pass
+lighthouse checks on both desktop and mobile for all three pages|over 90 score on lighthouse check|lighthouse scan in dev tools|96% performance|pass
+w3c css validator|no errors or warnings|W3C CSS vlidation checker|no errors found|pass
+nu HTML validator|no erroes or warnings|Nu HTML checker|no errors or warnings found|pass
+JSHint|no errors or warnings|JSHint.com|no errrors but 19 warnings|pass
+favicon|logo to appear on tab|view tab|icon can clearly be seen|pass
+players score increases |players score will start at 0 and count up in increments of 1.|played game|score increased as expected|pass
+computers score to increase when the computer wins|computers scire will start at 0 and count up in increments of 1.|played game|score increased as expected|pass
+Computer selects a random choice|different choices are selected by the computer at rendom|played game|computer had a wide range of selected choices|pass
+display who won the round, player or computer|display of winner|played game|display does show however not very clearly|pass
 ## bugs
 The font link was not working for most of my project unless I added the link to html. However, I changed the type of font and tried to add that to css and it appeared to work then. I had a problem to connect my playGame function, I was not calling the function from anywhere. I needed to go back to the html and add onclick="playGame('lizard')" to all the choices. I used tutor support to help me. There was a problem to get the computerChoice to work, turned out to be a typo in the HTML. So once fixed, it is now functional. The Rules of the game were not keeping in the middle of the page but ater reviewing how to use flexbox again I remembered how to solve this. I also wanted the rules to be hidden unless the rules button is pushed. The advice from (w3schools)[https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp] not working. I contacted the tutoring service and they explained that I needed to keep my functions separate so they could be read by the browser. I moved the function to sit below the playGame function and now it works smoothly.
 
