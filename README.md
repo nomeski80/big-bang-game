@@ -1,4 +1,5 @@
 # Big Bang game
+![game screenshots on different screens](/assets/images/responsive.png)
 ## Welcome to Project 2
 This is my second website for my Code Institute Full stack developer course. I have decided to create a simple interactive game from the CI options of 'rock-paper-scissor-lizard-spock. The game is a game of chance the the idea taken from the TV series The Big Bang Theory. According the the bigbangtheory.fandom webpage, the game was originally created by Sam Kass.
 
@@ -7,7 +8,7 @@ The game has 5 options and the player plays against the computer by selecting on
 
 ![game main page](/assets/images/homepage.png)
 ## rules
-I researched the rules of the game from the (Big Bang Theory wiki page)[https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock] 
+I researched the rules of the game from the [Big Bang Theory wiki page](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock) 
 ROCK crushes LIZARD; Rock crushes SCISSORS
 PAPER covers ROCK; PAPER disproves SPOCK
 SCISSORS cuts PAPER; SCISSORS decapitates LIZARD
@@ -22,18 +23,18 @@ SPOCK vaporizes ROCK; SPOCK smashes SCISSORS
 
 ## Colour scheme
 
-I decided on my colour scheme by picking a colour pallet from  [https://coolors.co/] This helped me to create a simple palatte that would be consistent throughout the site.
+I decided on my colour scheme by picking a colour pallet from [coolors](https://coolors.co/) This helped me to create a simple palatte that would be consistent throughout the site.
 
 ## Typography
-To create a clean and consistent look, I selected 2 fonts from (Google fonts) [https://fonts.google.com/] . I picked Quicksand as I felt it was clear and easy to read. I also added a backup font of sans-serif to make sure text would be comapatible on all devices. 
+To create a clean and consistent look, I selected 2 fonts from [Google fonts](https://fonts.google.com/) . I picked Quicksand as I felt it was clear and easy to read. I also added a backup font of sans-serif to make sure text would be comapatible on all devices. 
 
 ## Imagery
-All of my images were selected from Google. The options buttons were taken from(the noun project) [https://thenounproject.com/search/icons/?q=big+bang+theory]
+All of my images were selected from Google. The options buttons were taken from[the noun project](https://thenounproject.com/search/icons/?q=big+bang+theory)
 The image to explain the rules of the game came from 
-(Big Bang theory wiki page) [https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock]
+[Big Bang theory wiki page](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock)
 
 ## Wire frames
-When planning out the site I used a mixture of Google slides [https://bit.ly/3PIdccC] and Balsamiq to map out how I wanted to lay out my game. I did a little research on other people's games that were similer but I addapted these to make it my own. 
+When planning out the site I used a mixture of [Google slides](https://bit.ly/3PIdccC) and Balsamiq to map out how I wanted to lay out my game. I did a little research on other people's games that were similer but I addapted these to make it my own. 
 
 ![orignal plan for the game created on Balsamiq](/assets/images/pc-plan.png) ![original plan for the mobile](/assets/images/mobile-plan.png)
 
