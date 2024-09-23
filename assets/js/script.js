@@ -4,7 +4,7 @@ const choices = ["rock", "paper", "scissors", "lizard", "spock"];
 const playerDisplay = document.getElementById("playerDisplay");
 const computerDisplay = document.getElementById("computerDisplay");
 const resultDisplay = document.getElementById("resultDisplay");
-const userScore = document.getElementById();
+
 
 
 //player picks then the computer creates a random choice
@@ -61,19 +61,19 @@ let newUserScore = 0
 //add score to the player
 function incrementPlayerScore() {
 
-    let userScore = parseInt(document.getElementById("user-score").innerText);
+    let userScore = parseInt(document.getElementById("userScore").innerText);
     userScore++;
-    document.getElementById("user-score").innerText = userScore;
-    console.log(newUserScore);
+    document.getElementById("userScore").innerText = userScore;
+    
 
 }
 
 //add score for the computer
 function incrementComputerScore() {
 
-    let computerScore = parseInt(document.getElementById("computer-score").innerText);
+    let computerScore = parseInt(document.getElementById("computerScore").innerText);
     computerScore++;
-    document.getElementById("computer-score").innerText = computerScore;
+    document.getElementById("computerScore").innerText = computerScore;
 
 }
 

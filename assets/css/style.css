@@ -538,8 +538,8 @@ button:hover {
 .paper-image,
 .lizard-image,
 .spock-image {
-    width: 120px;
-    height: 120px;
+    width: 80px;
+    height: 80px;
 }
 
 
@@ -579,8 +579,8 @@ h1 {
     flex-direction: row;
     padding-left: 25px;
     padding-right: 25px;
-    max-width: 1000px;
-    max-height: 1000px;
+    max-width: 100%;
+    max-height: 100%;
 
 
 }
@@ -633,7 +633,7 @@ footer {
         font-size: 3rem;
     }
 
-    #rock,
+   /* #rock,
     #paper,
     #scissors,
     #lizard,
@@ -641,14 +641,15 @@ footer {
         width: 90px;
         height: 90px;
     }
+        */
 
     .rock-image,
     .scissors-image,
     .paper-image,
     .lizard-image,
     .spock-image {
-        width: 75px;
-        height: 75px;
+        width: 50px;
+        height: 50px;
     }
 
     .game-rules {
@@ -673,14 +674,7 @@ footer {
         justify-content: center;
     }
 
-    #rock,
-    #paper,
-    #scissors,
-    #lizard,
-    #spock {
-        width: 100px;
-        height: 100px;
-    }
+    
 
     .rock-image,
     .scissors-image,
@@ -690,6 +684,7 @@ footer {
         width: 60px;
         height: 60px;
     }
+        
 
     .play-area {
         column-count: 2;
@@ -736,14 +731,19 @@ footer {
 
    
 
-    .logo,
+    .logo {
+        width: 70px;
+        height: 70px;
+    }
+
+
     .rock-image,
     .scissors-image,
     .paper-image,
     .lizard-image,
     .spock-image {
-        width: 70px;
-        height: 70px;
+        width: 40px;
+        height: 40px;
         padding-top: 5px;
     }
 
